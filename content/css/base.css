@@ -1,0 +1,9 @@
+h4 {
+  margin: 10px 0;
+  font-size: 1.3rem !important;
+}
+hr {
+  width: 150px;
+  min-height: 5px;
+  background-color: peru;
+}

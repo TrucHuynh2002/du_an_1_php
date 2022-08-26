@@ -1,0 +1,87 @@
+.img-1 {
+  position: absolute;
+  bottom: 0;
+  height: 34%;
+  right: 0;
+}
+.img-3 {
+  position: absolute;
+  height: 75%;
+  top: 0%;
+  animation: img-3 5s infinite;
+}
+.img-2 {
+  position: absolute;
+  height: 40%;
+  bottom: 0;
+  right: 2%;
+  animation: img-2 10s infinite;
+}
+@keyframes img-3 {
+  from {
+    left: -1%;
+  }
+  to {
+    left: 2%;
+  }
+}
+@keyframes img-2 {
+  from {
+    right: 0%;
+    height: 0;
+  }
+  to {
+    right: 6%;
+    height: 40%;
+  }
+}
+.tim_kiem {
+  position: absolute;
+  top: 30%;
+  left: 16%;
+  background: #0000008c;
+  padding: 20px 20px 5px;
+}
+.btn-primary {
+  background: #b3652e !important;
+  border: 1px solid #b3652e !important;
+}
+.btn-primary > i {
+  margin-right: 10px;
+  opacity: 50%;
+  color: black;
+}
+.row {
+  padding: 10px;
+}
+.dropdown {
+  margin: 5px;
+}
+.dropdown > button {
+  padding: 13px 43px 11px;
+  background: none;
+  color: white;
+}
+.thongtin {
+  border-bottom: 5px solid #b87926;
+  width: 70px;
+  margin: 10px 0 20px;
+}
+.img-fluid-toptin {
+  width: 150px;
+  height: 150px;
+}
+.card-body > div {
+  display: flex;
+  align-items: baseline;
+}
+.card-body,
+.card-body > div {
+  justify-content: space-between;
+  align-items: baseline;
+}
+.card-body > p,
+.card-body > div > i,
+.card-body > div > p {
+  font-size: 15px;
+}

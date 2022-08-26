@@ -1,0 +1,33 @@
+.divtop h5 {
+  color: currentColor;
+}
+#mot {
+  float: right;
+}
+.button {
+  background: red;
+}
+.col-6 {
+  line-height: 30px;
+}
+.khoi-thong-tin {
+  line-height: 30px;
+}
+h5 {
+  margin: 30px !important;
+  font-size: 2rem !important;
+}
+.div {
+  display: flex;
+  align-items: baseline;
+}
+.div > i {
+  margin-right: 15px;
+}
+input {
+  margin-bottom: 30px !important;
+  margin-left: 20px !important;
+}
+a {
+  margin-left: 20px !important;
+}

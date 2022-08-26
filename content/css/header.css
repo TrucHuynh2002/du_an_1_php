@@ -1,0 +1,34 @@
+.header {
+  background-color: whitesmoke;
+  color: black;
+  font-size: 15px;
+  padding: 10px;
+  justify-content: space-between;
+}
+ul > li,
+#my-dropdown {
+  font-size: 12px !important;
+}
+.header > .col-4 > a,
+.header > .col-4 > img {
+  margin-left: 10px;
+}
+.header > .col-4 > a {
+  color: #292218;
+}
+.logo {
+  height: 50px !important;
+}
+.btn-primary {
+  text-align: center;
+}
+.khoi-nha-dat:hover > .dropdown-menu {
+  display: block !important;
+}
+.navbar-nav {
+  align-items: center;
+}
+.menu {
+  top: 71% !important;
+  left: 20% !important;
+}

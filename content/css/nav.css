@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.sidebar {
+  position: fixed;
+  height: 100%;
+  width: 15%;
+  background: black;
+  padding: 15px;
+}
+.logo_content > .logo > .logo_name {
+  font-size: 20px;
+  font-weight: 400;
+}
+.logo_content > .logo > i {
+  font-size: 28px;
+  margin-right: 5px;
+}
+.logo_content {
+  justify-content: center;
+  display: flex;
+}
+.sidebar > .logo_content > .logo {
+  color: white;
+  display: flex;
+  height: 80%;
+  border-radius: 50%;
+  width: 50%;
+  background: white;
+  align-items: center;
+}
+.sidebar > .logo_content > .thong-tin {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.sidebar > ul {
+  margin-top: 20px;
+}
+.sidebar > ul > li {
+  list-style: none;
+}
+.sidebar > ul > li > a {
+  color: white;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  transition: all 0.4s ease;
+  border-radius: 12px;
+}
+.sidebar > ul > li > a:hover {
+  color: black;
+  background: white;
+}
+.sidebar > ul > li > a > i {
+  height: 50px;
+  min-width: 50px;
+  border-radius: 12px;
+  line-height: 50px;
+  text-align: center;
+}

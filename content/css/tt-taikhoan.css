@@ -1,0 +1,17 @@
+.input > span {
+  position: absolute;
+  left: 33%;
+  top: 30%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #8e44ad;
+  cursor: pointer;
+}
+
+.input > input:valid ~ span {
+  display: block;
+}
+
+.input > span > i.hide-btn::before {
+  content: "f070";
+}
